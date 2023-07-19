@@ -1,0 +1,930 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.top-nav {
+    background: #053F5C;
+    text-align: center;
+    color: #ffff;
+    padding: 15px 0;
+    font-weight: 400;
+}
+nav .container-wrapper {
+    padding: 15px 0;
+}
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img img {
+    height: 550px;
+}
+.Logo {
+    padding: 8px;
+    display: flex;
+    align-items: start;
+    width: 10%;
+}
+.nav {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+} 
+
+.nav li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+}
+.Menu-bar {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+}
+.nav-button {
+    background: #F7AD19;
+    border: 0 none;
+    outline: 0 none;
+    color: #053F5C;
+    padding: 17px 53px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.icon.nav-button {
+    border: 0 none;
+    outline: 0 none;
+    color: #053F5C;
+    padding: 8px 7px;
+    background: transparent;
+    cursor: pointer;
+}
+h1.banner-title {
+    color: #053F5C;
+    font-size: 60px;
+    font-weight: 600;
+}
+span {
+    color: #F7AD19;
+}
+
+.hero-img {
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+.Logo img {
+    max-width: 100%;
+}
+
+.nav li:first-child {
+    margin: 0 15px 0 0;
+}
+
+.nav li:last-child {
+    margin: 0 0 0 15px;
+}
+
+.Hero-Section {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    padding: 120px 66px;
+
+}
+img {
+    max-width: 100%;
+}
+.button-wrapper {
+    margin: 15px 0;
+}
+
+p.hero-des {
+    margin: 11px 0 0 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hbutton {
+    background: #053F5C;
+    color: #FFFFFF;
+    padding: 14px 26px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+button.Trynow.hbutton {
+    padding: 14px 36px;
+}
+.partnerText {
+    color: #053F5C;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin: 60px 0 60px 0;
+}
+ul.partners {
+    list-style: none;
+    text-align: center;
+    margin: 0 0 0px 0;
+    padding: 0;
+    position: relative;
+}
+.partners li {
+    display: inline-flex;  
+}
+h1{
+    font-size: 32px;
+    color: #F7AD19;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 60px;
+    color: #053F5C;
+    font-weight: 500;
+}
+.features.h1{
+    margin: auto;
+
+}
+.features-wrapper h2 {
+    padding: 20px 0 0 0;
+}
+
+.feat li {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFFBFB;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    margin: 0 15px 0 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.features-wrapper {
+    width: 40%;
+    padding: 0 15px;
+}
+.featdescription {
+    width: 60%;
+    padding: 0 15px;
+}
+.row {
+    margin: 0 -15px;
+    position: relative;
+}
+.row:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.col {
+    padding: 0 15px;
+}
+.col-4 {
+    width: 33.33%;
+}
+.clearfix {
+    clear: both;
+}
+
+.features-wrapper {
+    width: 40%;
+    padding: 0 15px;
+}
+section.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+}
+.r1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+.featdescription ul.feat .r1:last-child {
+    margin: 0;
+}
+.featdescription ul.feat li:last-child {
+    margin: 0;
+}
+.featdescription ul.feat .img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 0;
+}
+.featdescription ul.feat .desc-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.featdescription ul.feat .desc-wrapper p {
+    display: block;
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.featdescription ul.feat .img-wrapper img {
+    height: 120px;
+    object-fit: contain;
+}
+.partners li {
+    filter: grayscale(100%);
+    transition: 0.3s all;
+}
+.partners li:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+    /* transform: rotate(15deg);  */
+}
+.desc-wrapper p{
+    font-size: 24px;
+    font-weight: 500;
+}
+section.courses {
+    padding: 0 0 120px 0;
+    background: #FAFAFA;}
+.coursesText {
+    text-align: center;
+    padding: 90px 0 0 0;
+}
+.coursesText p{
+    margin: 10px;
+}  
+.coursesText h2 {
+    padding: 20px 0 0 0;
+
+}
+
+h3{
+    color: #000;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+h4{
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.owl-carousel .owl-item .cap-wrapper img {
+    max-width: 100%;
+    width: auto;
+}
+
+.item {
+    margin: 60px 10px 60px 25px;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 20px 20px;
+    transition: 0.5s all;
+}
+
+.item:hover{
+    transform: scale(1.1);
+  
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
+
+}
+.cap-wrapper h4 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: -20px 0 0 35px;
+}
+.cap-wrapper h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 0 10px 0px;
+}
+
+.cap-wrapper p{
+    color: #053F5C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.9%;
+    letter-spacing: 0.88px;
+    margin: 0px 0px 0px 0px;
+}
+
+.cap-wrapper img{
+    margin: 20px 0 0 0px;
+}
+.owl-pagination {
+    text-align: center;
+}
+.owl-carousel .owl-page.active {
+    background: #FFC727;
+}
+.owl-carousel .owl-page {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 0px none;
+    outline: 0px none;
+    background: #E6E6E6;
+    display: inline-block;
+}
+
+.mentorText {
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px 0 0;
+}
+
+.mentorText p {
+    color: #053F5C;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.9%;
+    letter-spacing: 1.1px;
+}
+
+.mentorText h2 {
+    margin: 20px 0 10px 0;
+}
+
+section.mentors {
+        padding: 120px 0;
+        background-color: transparent;
+        background-image: url(../images/Mentor-Bg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-size: 0;
+    }
+.ReviewText{
+    text-align: center;
+}
+
+.ReviewText p {
+    color: #053F5C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.9%;
+    letter-spacing: 1.1px;
+} 
+.owl-controls .owl-buttons div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #E2E2E2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+.owl-buttons {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.owl-controls .owl-buttons div.owl-prev {
+    float: left;
+}
+.owl-controls .owl-buttons div.owl-next {
+    float: right;
+}
+
+ul.partners:before {
+    content: "";
+    position: absolute;
+    /* background: #F7AD19; */
+    background-image: url("../images/Line.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 14px;
+    z-index: 9;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: 0;
+}
+ul.partners:after {
+    content: "";
+    position: absolute;
+    /* background: #F7AD19; */
+    background-image: url("../images/Line.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 14px;
+    z-index: 9;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.best img {
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+.review-img {
+    width: 50%;
+    display: inline-block;
+    padding: 120px 100px;
+    vertical-align: middle;
+}
+.contactText {
+    text-align: center;
+    margin: 0 0 62px 0;
+}
+.contactText p{
+    color: #053F5C;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.9%;
+}
+section.Contact{
+    padding: 120px 0;
+    background-image: url("../images/Contactus.svg");
+    background-repeat: no-repeat;
+    /* background-position: 100%; */
+}
+.Contact button {
+    border-radius: 5px;
+    background: #053F5C;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 10px;
+    margin: auto;
+}
+.textbox {
+    border-radius: 10px;
+    background: rgba(247, 173, 25, 0.10);
+    width: 62%;
+    height: 90px;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 0 auto;
+    padding: 18px 0;
+    text-align: center;
+}
+
+footer{
+    padding: 120px 0;
+}
+
+input[type="text"]{
+   width: 50%;
+   padding: 15px;
+   border-radius: 10px;
+   /* margin: 20px 20px; */
+   background: #FFF;
+   box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.05);
+   border: 0 none;
+   outline: 0 none;
+   color: #000;
+   font-family: 'Montserrat';
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 148.9%;
+   text-align: center;
+}
+.bg {
+    position: relative;
+    display: inline;
+}
+.item-1{
+    width:150px;
+    height: 250px;
+
+}
+.owl-carousel-02 .items {
+    border-radius: 10px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    padding: 60px;
+    margin: 60px 25px 0 0;
+}
+.mentor-wrapper .owl-carousel .owl-item img {
+    height: 400px;
+    object-fit: contain;
+}
+
+.mentor-wrapper {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.items img {
+    height: 300px;
+}
+
+section.Reviews {
+    padding: 120px 0;
+    font-size: 0;
+}
+i.fa-sharp.fa-regular.fa-arrow-right {
+    font-size: 15px;
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+i.fa-sharp.fa-regular {
+    font-size: 15px;
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    color: #fff;
+}
+
+.studentReview p {
+    color: #053F5C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.9%;
+    letter-spacing: 1.1px;
+}
+
+.studentReview h3 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.9%;
+    letter-spacing: 1.32px;
+    padding: 35px 0 0 0;
+}
+.studentReview h4 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.9%;
+    letter-spacing: 1.1px;
+}
+
+.studentReview {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.lastnav{
+    background-color: #053F5C;
+    background-image: url("../images/footbg.svg");
+}
+
+.About {
+    width: 35%;
+    display: inline-block;
+    padding: 0 0 0 100px;
+}
+
+.About p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148.9%;
+    letter-spacing: 0.66px;
+    padding: 20px 100px 0 0px;
+}
+.Aboutus {
+    width: 15%;
+    display: inline-block;
+}
+
+.Privacy {
+    width: 15%;
+    display: inline-block;
+}
+.page {
+    width: 15%;
+    display: inline-block;
+}
+.address {
+    width: 15%;
+    display: inline-block;
+}
+
+.list ul li{
+    list-style: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.list h2{
+    color: #FFC727;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148.9%;
+    letter-spacing: 1.21px;
+}
+
+.copy p {
+    text-align: center;
+    color: #053F5C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: middle;
+}
+.copy{
+    
+    padding: 15px;
+}
+i.fas.fa-regular.fa-copyright {
+    vertical-align: middle;
+    margin: 0px 5px 0 0;
+}
+.fbg{
+    background-color: #FFF;
+}
+
+/*  
+ *  Pure CSS star rating that works without reversing order
+ *  of inputs
+ *  -------------------------------------------------------
+ *  NOTE: For the styling to work, there needs to be a radio
+ *        input selected by default. There also needs to be a
+ *        radio input before the first star, regardless of
+ *        whether you offer a 'no rating' or 0 stars option
+ *  
+ *  This codepen uses FontAwesome icons
+ */
+ .rating {
+    margin: 10px 0 0 0;
+}
+ #full-stars-example {
+    /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+    .rating-group {
+      display: inline-flex;
+    }
+    
+    /* make hover effect work properly in IE */
+    .rating__icon {
+      pointer-events: none;
+    }
+    
+    /* hide radio inputs */
+    .rating__input {
+     position: absolute !important;
+     left: -9999px !important;
+    }
+  
+    /* set icon padding and size */
+    .rating__label {
+      cursor: pointer;
+      padding: 0 0.1em;
+      font-size: 2rem;
+    }
+    
+    /* set default star color */
+    .rating__icon--star {
+      color: orange;
+    }
+    
+    /* set color of none icon when unchecked */
+    .rating__icon--none {
+      color: #eee;
+    }
+  
+    /* if none icon is checked, make it red */
+    .rating__input--none:checked + .rating__label .rating__icon--none {
+      color: red;
+    }
+  
+    /* if any input is checked, make its following siblings grey */
+    .rating__input:checked ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+  
+    /* make all stars orange on rating group hover */
+    .rating-group:hover .rating__label .rating__icon--star {
+      color: orange;
+    }
+  
+    /* make hovered input's following siblings grey on hover */
+    .rating__input:hover ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+    
+    /* make none icon grey on rating group hover */
+    .rating-group:hover .rating__input--none:not(:hover) + .rating__label .rating__icon--none {
+       color: #eee;
+    }
+  
+    /* make none icon red on hover */
+    .rating__input--none:hover + .rating__label .rating__icon--none {
+      color: red;
+    }
+  }
+  
+  #half-stars-example {
+    /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+    .rating-group {
+      display: inline-flex;
+    }
+    
+    /* make hover effect work properly in IE */
+    .rating__icon {
+      pointer-events: none;
+    }
+    
+    /* hide radio inputs */
+    .rating__input {
+     position: absolute !important;
+     left: -9999px !important;
+    }
+  
+    /* set icon padding and size */
+    .rating__label {
+      cursor: pointer;
+      /* if you change the left/right padding, update the margin-right property of .rating__label--half as well. */
+      padding: 0 0.1em;
+      font-size: 2rem;
+    }
+  
+    /* add padding and positioning to half star labels */
+    .rating__label--half {
+      padding-right: 0;
+      margin-right: -0.6em;
+      z-index: 2;
+    }
+    
+    /* set default star color */
+    .rating__icon--star {
+      color: orange;
+    }
+    
+    /* set color of none icon when unchecked */
+    .rating__icon--none {
+      color: #eee;
+    }
+  
+    /* if none icon is checked, make it red */
+    .rating__input--none:checked + .rating__label .rating__icon--none {
+      color: red;
+    }
+  
+    /* if any input is checked, make its following siblings grey */
+    .rating__input:checked ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+    
+    /* make all stars orange on rating group hover */
+    .rating-group:hover .rating__label .rating__icon--star,
+    .rating-group:hover .rating__label--half .rating__icon--star {
+      color: orange;
+    }
+  
+    /* make hovered input's following siblings grey on hover */
+    .rating__input:hover ~ .rating__label .rating__icon--star,
+    .rating__input:hover ~ .rating__label--half .rating__icon--star {
+      color: #ddd;
+    }
+    
+    /* make none icon grey on rating group hover */
+    .rating-group:hover .rating__input--none:not(:hover) + .rating__label .rating__icon--none {
+       color: #eee;
+    }
+  
+    /* make none icon red on hover */
+    .rating__input--none:hover + .rating__label .rating__icon--none {
+      color: red;
+    }
+  }
+  
+  #full-stars-example-two {  
+    /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+    .rating-group {
+      display: inline-flex;
+    }
+    
+    /* make hover effect work properly in IE */
+    .rating__icon {
+      pointer-events: none;
+    }
+    
+    /* hide radio inputs */
+    .rating__input {
+     position: absolute !important;
+     left: -9999px !important;
+    }
+    
+    /* hide 'none' input from screenreaders */
+    .rating__input--none {
+      display: none
+    }
+  
+    /* set icon padding and size */
+    .rating__label {
+      cursor: pointer;
+      padding: 0 0.1em;
+      font-size: 2rem;
+    }
+    
+    /* set default star color */
+    .rating__icon--star {
+      color: orange;
+    }
+  
+    /* if any input is checked, make its following siblings grey */
+    .rating__input:checked ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+    
+    /* make all stars orange on rating group hover */
+    .rating-group:hover .rating__label .rating__icon--star {
+      color: orange;
+    }
+  
+    /* make hovered input's following siblings grey on hover */
+    .rating__input:hover ~ .rating__label .rating__icon--star {
+      color: #ddd;
+    }
+  }
+  .address h2 {
+    padding: 0 0 20px 0;
+}
+
+li.hi {
+    padding: 0px 0px 15px 0px;
+}
+
+.list {
+    margin: 0px 10px 0px 0px;
+}
